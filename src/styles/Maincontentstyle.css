@@ -1,0 +1,260 @@
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    width: 1279px;
+    height: 100%;
+}
+.main-header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 16px 24px;
+    border-bottom: 1px solid #EBEEFC;
+}
+.main-header > h6{
+    margin: 0;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.state-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 16px 24px;
+}
+.state-container > .state{
+    display: flex;
+    flex-direction: column;
+    height: 84px;
+    width: 270px;
+    gap: 20px;
+}
+.state-progress1{
+    display: flex;
+    align-items: center;
+    width: 68px;
+    height: 32px;
+    gap: 19px;
+    border-radius: 20px;
+    padding: 4px 12px;
+    background-color: #EBEEFC;
+}
+.state-name{
+    display: flex;
+    align-items: center;
+    width: 44px;
+    height: 20px;
+    gap: 4px;
+}
+.circle1{
+    width: 6.4px;
+    height: 6.4px;
+    border-radius: 50%;
+    background-color: #3659E2;
+}
+.text1{
+    width: 32px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #3659E2;
+}
+.add-new-button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEEFC;
+    width: 270px;
+    height: 32px;
+    padding: 10px 8px;
+    gap: 4px;
+    border-radius: 8px;
+}
+.add-new-button1 > span{
+    color: #3659E2;
+}
+.button-div{
+    display: flex;
+    width: 65px;
+    height: 20px;
+    padding: 0px 8px;
+    gap: 10px;
+}
+.add-button1{
+    all: unset;
+    width: 49px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #3659E2;
+}
+.vertical-line{
+        width: 1px; 
+        height: 1024px; 
+        background-color: #D8E0FD;
+        border: none; 
+}
+.state-progress2{
+    display: flex;
+    align-items: center;
+    width: 68px;
+    height: 32px;
+    gap: 19px;
+    border-radius: 20px;
+    padding: 4px 12px;
+    background-color: #FDF2FA;
+}
+.circle2{
+    width: 6.4px;
+    height: 6.4px;
+    border-radius: 50%;
+    background-color: #EE46BC;
+}
+.text2{
+    width: 32px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #EE46BC;
+}
+.add-new-button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDF2FA;
+    width: 270px;
+    height: 32px;
+    padding: 10px 8px;
+    gap: 4px;
+    border-radius: 8px;
+}
+.add-new-button2 > span{
+    color: #EE46BC;
+}
+.add-button2{
+    all: unset;
+    width: 49px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #EE46BC;
+}
+.state-progress3{
+    display: flex;
+    align-items: center;
+    width: 68px;
+    height: 32px;
+    gap: 19px;
+    border-radius: 20px;
+    padding: 4px 12px;
+    background-color: #ECF6FC;
+}
+.circle3{
+    width: 6.4px;
+    height: 6.4px;
+    border-radius: 50%;
+    background-color: #3FA1E3;
+}
+.text3{
+    width: 32px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #3FA1E3;
+}
+.add-new-button3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECF6FC;
+    width: 270px;
+    height: 32px;
+    padding: 10px 8px;
+    gap: 4px;
+    border-radius: 8px;
+}
+.add-new-button3 > span{
+    color: #3FA1E3;
+}
+.add-button3{
+    all: unset;
+    width: 49px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #3FA1E3;
+}
+.state-progress4{
+    display: flex;
+    align-items: center;
+    width: 68px;
+    height: 32px;
+    gap: 19px;
+    border-radius: 20px;
+    padding: 4px 12px;
+    background-color: #E7F8E9;
+}
+.circle4{
+    width: 6.4px;
+    height: 6.4px;
+    border-radius: 50%;
+    background-color: #12BB23;
+}
+.text4{
+    width: 32px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #12BB23;
+}
+.add-new-button4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7F8E9;
+    width: 270px;
+    height: 32px;
+    padding: 10px 8px;
+    gap: 4px;
+    border-radius: 8px;
+}
+.add-new-button4 > span{
+    color: #12BB23;
+}
+.add-button4{
+    all: unset;
+    width: 49px;
+    height: 20px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #12BB23;
+}
